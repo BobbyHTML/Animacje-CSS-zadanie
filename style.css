@@ -10,7 +10,7 @@ body{
     background-image: url("pexels-jane-doan-1128678.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    width: 100%;
     overflow: hidden;
    
 }
@@ -86,6 +86,7 @@ padding:50px ;
 font-size: 30px;
 
 margin-top: 100px;
+ text-align: center;
 
 
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -97,44 +98,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 
 .contentLeft h1{
     font-family: 'Pacifico', cursive;
-    background-color: orange;
-    padding: 50px;
-    border-radius: 20px;
+    color: rgb(254, 239, 221);
+    text-shadow: 6px 5px 10px rgba(66, 68, 90, 1);
+    font-size: 8rem;
+    
+   
 
-    /* From https://css.glass */
-background: rgba(255, 111, 0, 0.5);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.2px);
--webkit-backdrop-filter: blur(5.2px);
+
+
 
     
-}
-
-.contentLeft p{
-    
-    width: 850px;
-
-    margin-top: 30px;
-    background-color: rgb(235, 153, 0);
-    padding: 50px;
-    border-radius: 20px;
-    font-family: 'Signika Negative', sans-serif;
-font-family: 'Sofia Sans', sans-serif;
-font-family: 'Solitreo', cursive;
-
-/* From https://css.glass */
-background: rgba(255, 111, 0, 0.5);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5.2px);
--webkit-backdrop-filter: blur(5.2px);
-
 }
 
 .contentRight{
-/* Jak by nie działało to przesuń cały kontener w lewo :D */
-
+    /* Jak by nie działało to przesuń cały kontener w lewo :D */
 }
 
 #juice{
